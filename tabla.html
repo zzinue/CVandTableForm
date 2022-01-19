@@ -36,5 +36,56 @@
         </table>
         
     </body>
+    <br>
+
+    <style>
+        table ,th ,td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="5">
+                    full header
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+           
+            <tr>
+                <td rowspan="3">
+                    aside left
+                </td>
+                
+                    <td>cell1</td>
+                    <td>cell1</td>
+                    <td>cell1</td>
+                    <td rowspan="3">aside right</td>
+               
+                
+                
+            </tr>
+            <tr>
+                <td> cell </td>
+                <td rowspan="2" colspan="2">Inner area</td>
+                
+            </tr>
+            <tr>
+                <td>cell </td>
+                
+            </tr>
+            <tr>
+                <td colspan="5"> full footer</td>
+            </tr>
+      
+
+        </tbody>
+    </table>
+
+    
 </html>
 
