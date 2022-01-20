@@ -1,0 +1,29 @@
+        * {
+            background-color: #dfe3ee
+        }
+        
+        h1,
+        h2 {
+            color: rgb(2, 4, 117);
+        }
+        
+        input {
+            background-color: rgb(255, 255, 255);
+        }
+        
+        #white {
+            background-color: rgb(255, 255, 255);
+        }
+        
+        #green {
+            background-color: #42b72a;
+            border-radius: 2px;
+            color: white;
+            height: 25px;
+        }
+        
+        label {
+            color: rgba(2, 4, 117, 0.781);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: medium;
+        }
