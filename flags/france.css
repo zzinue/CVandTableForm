@@ -1,0 +1,54 @@
+.france {
+    width: 50%;
+    height: 250px;
+    margin: 10px;
+}
+
+.blue {
+    width: 33.2%;
+    height: 250px;
+    background-color: #0055A4;
+    display: inline-block;
+}
+
+.white {
+    display: inline-block;
+    width: 33.2%;
+    height: 250px;
+}
+
+.red {
+    display: inline-block;
+    width: 33.15%;
+    height: 250px;
+    background-color: #EF4135;
+}
+
+.flexbox {
+    width: 50%;
+    height: 250px;
+    margin: 10px;
+    display: flex;
+}
+
+.blue-flex {
+    display: inline-block;
+    width: 33.1%;
+    height: 250px;
+    background-color: #0055A4
+}
+
+.white-flex {
+    display: inline-block;
+    width: 33.3%;
+    height: 250px;
+    background-color: white
+}
+
+.red-flex {
+    display: inline-block;
+    width: 33.1%;
+    height: 250px;
+    background-color: #EF4135;
+    ;
+}
