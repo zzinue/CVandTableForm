@@ -1,0 +1,28 @@
+.Germany {
+    width: 50%;
+    height: 250px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.black {
+    width: 33.3%;
+    height: 250px;
+    background-color: #000000;
+    display: inline-block;
+}
+
+.red {
+    width: 33.3%;
+    height: 250px;
+    background-color: #DD0000;
+    display: inline-block;
+}
+
+.yellow {
+    width: 33.3%;
+    height: 250px;
+    background-color: #FFCE00;
+    display: inline-block;
+}
