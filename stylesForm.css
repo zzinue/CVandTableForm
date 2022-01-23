@@ -1,79 +1,47 @@
-* {
-    background-color: #dfe3ee
+body {
+    font-family: "Helvetica Neue";
+    color: #203360;
 }
 
-.main {
-    margin-left: 20px;
+.register {
+    padding: 20px;
+    background: linear-gradient(#F8F9FB, #C5CDE0);
+    width: 500px;
 }
 
-h1,
-h2 {
-    color: rgb(2, 4, 117);
-}
-
-input {
-    background-color: rgb(255, 255, 255);
-}
-
-#white {
-    background-color: rgb(255, 255, 255);
-}
-
-#green {
-    background-color: #42b72a;
-    border-radius: 2px;
-    color: white;
-    height: 25px;
-    margin-left: 110px;
-}
-
-label {
-    color: rgba(2, 4, 117, 0.781);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: medium;
-    font-weight: bold;
+form {
+    width: 400px;
+    margin: 0 auto;
     text-align: right;
 }
 
-section {
-    text-align: start;
+input {
+    width: 250px;
+    margin: 4px;
 }
 
-#white {
-    width: 205px;
+select {
+    width: 250px;
+    margin: 4px;
 }
 
-h4 {
-    color: rgb(142, 11, 218);
-    margin-left: 110px;
+button {
+    background-color: #4CAF50;
+    color: white;
+    margin-top: 4px;
 }
 
-.pading {
-    padding: 15px;
-    margin-left: 90px;
-}
-
-.am {
-    margin-left: 60px;
-}
-
-.pass {
-    margin-left: -37px;
-}
-
-.birthday {
-    margin-left: 30px;
-}
-
-footer {
-    font-weight: bold;
-    margin-left: 120px;
-}
-
-small {
+p {
+    text-align: center;
     color: gray;
 }
 
-input {
-    width: 200px;
+a:not(:last-child) {
+    text-decoration: none;
+    display: block;
+}
+
+.left {
+    font-size: medium;
+    text-align-last: right;
 }

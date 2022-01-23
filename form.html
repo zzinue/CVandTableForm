@@ -10,58 +10,56 @@
 </head>
 
 <body>
-    <section class="main">
+    <div class="register">
         <h1>Sign up</h1>
         <h2>It's free and anyone can join</h2>
-    </section>
-
-    <form action="https://reqres.in/api/users" method="post">
-        <section class="pading">
-            <label for="firstName">First Name:</label>
-            <input type="text" name="firstName" />
-
-            <br/><br/>
 
 
-            <label for="lastName">Last Name:</label>
-            <input type="text" name="lastName" />
+        <form action="/form" method="POST">
+            <div>
+                <label for="firstName">First Name:</label>
+                <input id="firstName" type="text" name="firstName" />
+            </div>
+            <div>
+                <label for="lastName">Last Name:</label>
+                <input id="lastName" type="text" name="lastName" />
 
-            <br/><br/>
+            </div>
+            <div>
+                <label for="email">Your Email:</label>
+                <input id="email" type="email" name="email" />
 
+            </div>
+            <div>
 
-            <label for="email">Your Email:</label>
-            <input type="email" name="email" />
+                <label for="newPassword">New Password:</label>
+                <input id="white" type="password" name="Password" />
 
-            <br/><br/>
-
-
-            <label class="pass" for="password">New Password:</label>
-            <input id="white" type="password" name="Password" />
-
-            <br/><br/>
-
-            <label class="am" for="gender">I am:</label>
-            <select id="white" name="gender">
-           
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-          
-        </select>
-            <br>
-            <br>
-            <label class="birthday" for="birthday">Birthday:</label>
-            <input type="date" name="Birthday" />
-            <h4>Why do I need to provide this?</h4>
-            <button id="green" type="submit">Sign up</button>
-        </section>
-
-    </form>
-    <hr/>
-    <footer>
-        <a href="https://www.facebook.com/campaign/landing.php?&campaign_id=1655435892&extra_1=s%7Cc%7C514052442926%7Ce%7Cfacebook%20create%20account%7C&placement=&creative=514052442926&keyword=facebook%20create%20account&partner_id=googlesem&extra_2=campaignid%3D1655435892%26adgroupid%3D63005051669%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-309327057760%26loc_physical_ms%3D20709%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=Cj0KCQiAraSPBhDuARIsAM3Js4otHt1Z1P30TWIFLS7thYaNrNkmUXwRIGy8AjU5yBPPNyfOS_tvNo0aAuqmEALw_wcB">Create Page</a>
-        <small>for a celebity, band or business.</small>
-    </footer>
-
+            </div>
+            <div>
+                <label class="am" for="gender">I am:</label>
+                <input id="newPassword" name="newPassword" type="password">
+            </div>
+            <div>
+                <label for="gender">I am</label>
+                <select name="gender" id="gender">
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                </select>
+            </div>
+            <div>
+                <label for="birthday">Birthday</label>
+                <input id="birthday" type="date" name="birthday">
+            </div>
+            <div>
+                <label class="left">
+                    <a href=""><small>Why do I need to provide this?</small></a>
+                    <button type="submit">Sign up</button>
+            </div>
+        </form>
+        <hr/>
+        <p><a href="#">Create a Page</a> for a celebrity, band or business.</p>
+    </div>
 </body>
 
 </html>
