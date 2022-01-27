@@ -45,6 +45,7 @@
                         top: 50%;
                         left: 50%;
                         transform: translate(-50%, -50%);
+                        flex-wrap: wrap;
                     }
                     
                     #del-span {
@@ -68,23 +69,21 @@
                         justify-content: center;
                     }
                     
-                    img:hover {
+                    .user:hover img {
                         border: 3px solid white;
                         cursor: pointer;
+                    }
+                    
+                    .user:hover #del-span {
                         border: 1px solid white;
                     }
                     
-                    span:hover {
-                        cursor: pointer;
-                        color: rgb(255, 255, 249);
-                    }
-                    
                     .admon-profiles {
-                        background-color: rgb(0, 0, 0);
                         display: flex;
                         justify-content: center;
-                        position: fixed;
-                        bottom: 120px;
-                        left: 1000px;
-                        color: gray;
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        right: 0;
+                        background-color: white;
                     }
