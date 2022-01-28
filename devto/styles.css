@@ -1,0 +1,74 @@
+.header {
+    position: fixed;
+    display: block;
+    background-color: rgb(172, 167, 167);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header-container {
+    max-width: 1280px;
+    height: 56px;
+    padding: 1rem;
+    margin: auto;
+    background-color: rgb(223, 199, 199);
+    display: flex;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.flex-items {
+    display: flex;
+    margin-left: auto;
+    height: 100%;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#main-image {
+    width: 500px;
+    height: auto;
+}
+
+.main-card-center {
+    display: block;
+}
+
+.card-body {
+    background-color: rgb(199, 180, 176);
+}
+
+.avatar-div {
+    display: inline-block;
+}
+
+#avatar {
+    width: 35px;
+    border-radius: 50px;
+}
+
+.card-below {
+    margin-top: 10px;
+    background-color: turquoise;
+}
+
+.story-bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.authentication-container {
+    margin-top: 20px;
+}
+
+#dev-center-img {
+    width: 50px;
+}
+
+.authentication-center {
+    display: flex;
+    justify-content: center;
+}
