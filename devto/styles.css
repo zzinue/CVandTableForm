@@ -1,5 +1,9 @@
+body {
+    background-color: rgb(250 250 250);
+}
+
 .header {
-    position: fixed;
+    position: absolute;
     display: block;
     background-color: rgb(172, 167, 167);
     position: fixed;
@@ -13,11 +17,20 @@
     height: 56px;
     padding: 1rem;
     margin: auto;
-    background-color: rgb(223, 199, 199);
+    background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     position: relative;
     box-sizing: border-box;
+}
+
+#dev-main {
+    width: 50px;
+    margin-right: 14px;
+}
+
+input {
+    width: 390px;
 }
 
 .flex-items {
@@ -28,17 +41,130 @@
     box-sizing: border-box;
 }
 
+.log-in {
+    margin-right: 25px;
+}
+
+.log-in:hover {
+    background-color: rgb(219, 219, 219);
+}
+
+.account {
+    border-radius: 5px;
+    padding: 7px;
+    background-color: white;
+}
+
+.account:hover {
+    background: rgb(155, 155, 255);
+}
+
+.button-account {
+    color: rgb(31, 9, 128);
+}
+
+.aside-bar-first {
+    width: 240px;
+    height: 320px;
+    border: 1px solid black;
+    background-color: rgb(250 250 250);
+    border-radius: 5px;
+    padding: 14px;
+    font-size: 16px;
+}
+
+#letter-size {
+    font-size: 20px;
+}
+
+p {
+    margin-top: 22px;
+}
+
+.center-aside {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.account-aside {
+    width: 200px;
+    border-radius: 5px;
+}
+
+.account-aside:hover {
+    background: rgb(155, 155, 255);
+}
+
+.log-in-aside {
+    width: 200px;
+    margin-top: 10px;
+    background-color: transparent;
+    border-radius: 4px;
+    border: transparent;
+}
+
+.log-in-aside:hover {
+    color: #c76ff0;
+    border: #c76ff0 solid 1px;
+    background: rgb(206, 198, 198);
+    cursor: pointer;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 8px;
+}
+
+.side-nav-dropdown {
+    overflow-y: scroll;
+}
+
+.bottom-aside-right {
+    border-radius: 5px;
+    padding: 8px;
+    background-color: rgb(250 250 250);
+    border: 1px solid rgb(95, 94, 92);
+}
+
 #main-image {
-    width: 500px;
-    height: auto;
+    width: 650px;
+    height: 216px;
+}
+
+.backpack {
+    width: 240px;
+    height: 260;
+}
+
+.sticker-img {
+    width: 200px;
+}
+
+.inline-div {
+    display: flex;
+    flex-direction: row;
+}
+
+#top-buttons {
+    border: transparent;
+}
+
+#top-buttons:hover {
+    background-color: transparent;
 }
 
 .main-card-center {
+    width: 600px;
     display: block;
 }
 
 .card-body {
-    background-color: rgb(199, 180, 176);
+    width: 650px;
+    height: 216px;
+    background-color: rgb(255, 255, 255);
 }
 
 .avatar-div {
@@ -50,9 +176,17 @@
     border-radius: 50px;
 }
 
+.story-principal h2 {
+    color: rgb(0, 0, 0);
+}
+
 .card-below {
     margin-top: 10px;
-    background-color: turquoise;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 5px;
+    width: 650px;
+    height: 216px;
 }
 
 .story-bottom {
@@ -69,6 +203,26 @@
 }
 
 .authentication-center {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*Here start styles of login  */
+
+.registration {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px;
+}
+
+.registration-content {
     display: flex;
     justify-content: center;
 }
