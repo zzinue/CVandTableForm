@@ -23,6 +23,14 @@ body {
     box-sizing: border-box;
 }
 
+.form-header button {
+    position: absolute;
+    margin-top: 2px;
+    margin-left: -38px;
+    border-radius: 5px;
+    border: hidden;
+}
+
 #dev-main {
     width: 50px;
     margin-right: 14px;
@@ -38,10 +46,22 @@ input {
     height: 100%;
     align-items: center;
     box-sizing: border-box;
+    text-decoration: underline;
+}
+
+.log-in:hover {
+    color: #ab95b6;
+    border: #e8d3f1 solid 1px;
+    background: rgb(206, 198, 198);
+    cursor: pointer;
 }
 
 .log-in {
     margin-right: 25px;
+    background-color: transparent;
+    border: transparent;
+    padding: 0.25rem;
+    border-radius: 6px;
 }
 
 .log-in:hover {
@@ -49,17 +69,16 @@ input {
 }
 
 .account {
-    border-radius: 5px;
-    padding: 7px;
+    border-radius: 8px;
+    padding: 6px;
     background-color: white;
+    border-color: rgb(110 121 231);
 }
 
 .account:hover {
-    background: rgb(155, 155, 255);
-}
-
-.button-account {
-    color: rgb(31, 9, 128);
+    background-color: rgb(227, 222, 233);
+    color: white;
+    text-decoration: underline;
 }
 
 .first-aside-left {
@@ -87,7 +106,7 @@ input {
     background-color: rgb(252 211 77);
 }
 
-.listings1 div:hover {
+.container-right div:hover {
     background-color: rgb(255, 255, 255);
 }
 
@@ -96,17 +115,6 @@ input {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-end;
-}
-
-.list-of-icons {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.list-of-icons ul {
-    margin: 0px;
-    padding: 0px;
 }
 
 #letter-size {
@@ -126,6 +134,9 @@ p {
 }
 
 .account-aside {
+    border-radius: 6px;
+    padding: 0.25rem;
+    border: #834ab9;
     width: 200px;
     border-radius: 5px;
 }
@@ -138,15 +149,44 @@ p {
     width: 200px;
     margin-top: 10px;
     background-color: transparent;
-    border-radius: 4px;
     border: transparent;
+    padding: 0.25rem;
+    border-radius: 6px;
 }
 
 .log-in-aside:hover {
-    color: #c76ff0;
-    border: #c76ff0 solid 1px;
+    color: #ab95b6;
+    border: #e8d3f1 solid 1px;
     background: rgb(206, 198, 198);
     cursor: pointer;
+}
+
+#aside-bar-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.aside-bar-icons ul {
+    width: 270px;
+}
+
+.aside-bar-icons li {
+    margin-top: 1rem;
+}
+
+.aside-bar-icons li:hover {
+    border-radius: 5px;
+    background-color: rgb(236, 233, 245);
+    text-decoration: underline;
+}
+
+.other {
+    width: 250px;
+}
+
+.between-icons {
+    margin-top: 20px;
 }
 
 .social-icons a {
@@ -154,8 +194,20 @@ p {
     margin: 8px;
 }
 
+.social-icons a:hover {
+    border-radius: 5px;
+    background-color: rgb(236, 233, 245);
+    text-decoration: underline;
+}
+
+.scroll-left {
+    margin-top: 20px;
+}
+
 .side-nav-dropdown {
-    overflow-y: scroll;
+    width: 250px;
+    height: 380px;
+    overflow: scroll;
 }
 
 .bottom-aside-right {
@@ -165,8 +217,9 @@ p {
 }
 
 .backpack {
+    margin-top: 20px;
     width: 240px;
-    height: 260;
+    height: 300px;
 }
 
 .sticker-img {
@@ -382,6 +435,8 @@ a {
     margin-top: 10px;
     background-color: rgb(250 250 250);
 }
+
+.listings {}
 
 .create-list {
     display: flex;
